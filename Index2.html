@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
+        <title>Project: Event invite</title>
+        <style>
+        h1{
+            text-align: center;
+        }
+        
+        h2{
+            font-weight: bold;
+        }
+        #Chichi{
+            float: right;
+            margin-left: 243px;
+        }
+        
+        #Goku{
+            float: left;
+            margin-right: 272px;
+            margin-top: -180px;
+          
+        }
+        
+        #ab{
+            text-align: center;
+            font-family: "Sofia", sans-serif;
+            font-size: 26px;
+        }
+        
+        #bc{
+            text-align: center;
+            font-family: "Sofia", sans-serif;
+            font-size: 32px;
+        }
+        
+        /* OUTER CONTAINER */
+.tcontainer {
+  width: 100%;
+  overflow: hidden; /* Hide scroll bar */
+}
+ 
+/* MIDDLE CONTAINER */
+.ticker-wrap {
+  width: 100%;
+  padding-left: 100%; /* Push contents to right side of screen */
+  background-color: #eee;
+}
+
+/* INNER CONTAINER */
+@keyframes ticker{
+  0% { transform: translate3d(0, 0, 0); }
+  100% { transform: translate3d(-100%, 0, 0); }
+}
+.ticker-move {
+  /* Basically move items from right side of screen to left in infinite loop */
+  display: inline-block;
+  white-space: nowrap;
+  padding-right: 100%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-name: ticker;
+  animation-duration: 10s;
+}
+.ticker-move:hover{
+  animation-play-state: paused; /* Pause scroll on mouse hover */
+}
+
+/* ITEMS */
+.ticker-item{
+  display: inline-block; /* Lay items in a horizontal line */
+  padding: 0 2rem;
+  font-size: 26px;
+  font-weight: bold;
+}
+    
+    #cd{
+            text-align: center;
+             font-size: 27px;
+        }   
+
+         body{
+            
+            background-color: rgb(91, 200, 222);
+            color: rgb(135, 34, 125);
+        }
+
+        #image1{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+        #lastline{
+            text-align: right;
+            font-size: 30px;
+        }
+
+        #me{
+            display: block;
+            margin-left: 1133px;
+            width: 15%;
+        }
+
+     
+            
+        </style>
+    </head>
+    <body>
+ 
+        
+        <h1><i><u> *Marriage Invitation*
+        </u></i></h1>
+        
+        <h2><i>We  welcome you all the Friends and Families!!!</i></h2>
+
+        <img id="image1" src="https://static1.cbrimages.com/wordpress/wp-content/uploads/2020/02/Goku-and-ChiChi-feature-Image-1.png?q=50&fit=crop&w=960&h=500&dpr=1.5" >
+        
+        <div id="Chichi">
+        <h3 class="font-effect-neon" id="ab">Chichi</h3>
+        <ul>
+            <li>Martial Artist</li>
+            <li>Present Tenkaichi Tournament Participant(Selected in top 8 Finalist)
+            <li> Strongest girl on Earth
+        </ul>
+        
+         </div>
+         
+         <div id="Goku">
+         <h3 class="font-effect-fire" id="bc">Goku</h3>
+         <ul>
+             <li>Martial Artist</li>
+             <li>Pupil of Master Muten Roshi</li>
+             <li> Past Tenkaichi Tournament Runner Up</li>
+             <li>Present Tenkaichi Tournament Title Winner</li>
+             <li>Defeater of The Heavenly Demon Pikkolo Diamo
+         </ul>
+             
+             
+         </div>
+        
+        
+        <div class="tcontainer"><div class="ticker-wrap"><div class="ticker-move">
+  <div class="ticker-item"><i>Goku Weds Chichi</i></div>
+</div></div></div>
+         <h3> Venue:</h3>
+        <p>58N 018,<br>
+        439 East District
+        </p>
+        <p id="cd"> We are eagerly Waiting for your arival!!</p>
+        <p id="lastline"> Created By Us</p>
+        <img id="me" src="https://i.pinimg.com/564x/6c/db/3f/6cdb3f3a840728ab1bc33dc22b651c95.jpg">
+        </body>
+        </html>
+        
+  
